@@ -15,4 +15,5 @@ void main(List<String> args) {
 
   print("¿Eres mayor de edad? (true/false):");
   bool mayorEdad = stdin.readLineSync()! == "true";
+  print("The entered number is ${mayorEdad}");
 }
